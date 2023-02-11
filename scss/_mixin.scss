@@ -1,0 +1,17 @@
+@mixin felxA{
+    display: flex;
+    align-items: center;
+}
+
+@mixin felxB{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@mixin flexC{
+    @include felxA;
+    justify-content: center;
+}
+ @mixin mx {
+    margin: 0 auto;
+ }
